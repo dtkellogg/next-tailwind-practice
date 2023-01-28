@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import Nav from './Nav'
 
 export default function RootLayout({
   children,
@@ -9,7 +10,9 @@ export default function RootLayout({
     <html>
       <head />
 
+
       <body>
+        <Nav />
         <div>{children}</div>
       </body>
     </html>
