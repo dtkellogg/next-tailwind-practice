@@ -21,6 +21,10 @@
   .btn-green {
     @apply text-white bg-green-500 hover:bg-green-700 md:hover:bg-blue-500;
   }
+
+  .card {
+    background-color: theme('colors.white');
+  }
 }
 
 @layer utilities {

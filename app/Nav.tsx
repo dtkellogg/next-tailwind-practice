@@ -2,7 +2,7 @@ import Link from "next/link"
 
 function Nav() {
   return (
-    <nav>
+    <nav className="w-full flex justify-evenly">
       <Link href="/">
         Home
       </Link>
